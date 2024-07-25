@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+.student{
+  display: flex;
+  justify-content: center;
+  background: url('../Images/bg-img-5.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  
+} 
+
+.student .con table {
+    margin: 20px auto;
+    font-size: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: rgba(232, 228, 17, 0.953);
+    backdrop-filter: blur(2px);
+    background-image: linear-gradient(to right, #4343432d 0%, rgba(0, 0, 0, 0.616) 100%);
+    
+
+  }
+
+.student table td {
+    padding: 18px 30px;
+    text-align: center;
+  }
+
+.student .con img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 25px black;
+  }
+
+.student  thead > tr > td {
+    font-weight: bold;
+  }

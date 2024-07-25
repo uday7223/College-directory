@@ -1,0 +1,113 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "imgPath": "https://randomuser.me/api/portraits/men/1.jpg",
+            "name": "Vivek",
+            "email": "vivek@gmail.com",
+            "phone": "65468923"
+        },
+        {
+            "id": 2,
+            "imgPath": "https://randomuser.me/api/portraits/men/2.jpg",
+            "name": "Uday",
+            "email": "uday@gmail.com",
+            "phone": "6546654623"
+        },
+        {
+            "id": 3,
+            "imgPath": "https://randomuser.me/api/portraits/men/3.jpg",
+            "name": "Ravi",
+            "email": "ravi@gmail.com",
+            "phone": "65894237"
+        },
+        {
+            "id": 4,
+            "imgPath": "https://randomuser.me/api/portraits/men/4.jpg",
+            "name": "Amit",
+            "email": "amit@gmail.com",
+            "phone": "64598721"
+        },
+        {
+            "id": 5,
+            "imgPath": "https://randomuser.me/api/portraits/men/5.jpg",
+            "name": "Rohan",
+            "email": "rohan@gmail.com",
+            "phone": "65987412"
+        }
+    ],
+    "faculty": [
+        {
+            "id": 1,
+            "imgPath": "https://randomuser.me/api/portraits/women/1.jpg",
+            "name": "Nandan",
+            "email": "nandan@gmail.com",
+            "phone": "65468923"
+        },
+        {
+            "id": 2,
+            "imgPath": "https://randomuser.me/api/portraits/women/2.jpg",
+            "name": "Ram",
+            "email": "ram@gmail.com",
+            "phone": "6546654623"
+        },
+        {
+            "id": 3,
+            "imgPath": "https://randomuser.me/api/portraits/women/3.jpg",
+            "name": "Anita",
+            "email": "anita@gmail.com",
+            "phone": "65894721"
+        },
+        {
+            "id": 4,
+            "imgPath": "https://randomuser.me/api/portraits/women/4.jpg",
+            "name": "Meena",
+            "email": "meena@gmail.com",
+            "phone": "65412879"
+        },
+        {
+            "id": 5,
+            "imgPath": "https://randomuser.me/api/portraits/women/5.jpg",
+            "name": "Suresh",
+            "email": "suresh@gmail.com",
+            "phone": "65478932"
+        }
+    ],
+    "admin": [
+        {
+            "id": 1,
+            "imgPath": "https://randomuser.me/api/portraits/lego/1.jpg",
+            "name": "Sham",
+            "email": "sham@gmail.com",
+            "phone": "65468923"
+        },
+        {
+            "id": 2,
+            "imgPath": "https://randomuser.me/api/portraits/lego/2.jpg",
+            "name": "Uday",
+            "email": "uday@gmail.com",
+            "phone": "6546654623"
+        },
+        {
+            "id": 3,
+            "imgPath": "https://randomuser.me/api/portraits/lego/3.jpg",
+            "name": "Kiran",
+            "email": "kiran@gmail.com",
+            "phone": "65897345"
+        },
+        {
+            "id": 4,
+            "imgPath": "https://randomuser.me/api/portraits/lego/4.jpg",
+            "name": "Lata",
+            "email": "lata@gmail.com",
+            "phone": "65412378"
+        },
+        {
+            "id": 5,
+            "imgPath": "https://randomuser.me/api/portraits/lego/5.jpg",
+            "name": "Ravi",
+            "email": "ravi@gmail.com",
+            "phone": "65982345"
+        }
+    ]
+}
