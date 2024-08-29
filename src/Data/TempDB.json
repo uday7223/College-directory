@@ -34,6 +34,13 @@
             "name": "Rohan",
             "email": "rohan@gmail.com",
             "phone": "65987412"
+        },
+        {
+            "id": 6,
+            "imgPath": "https://randomuser.me/api/portraits/men/5.jpg",
+            "name": "abc",
+            "email": "abc@gmail.com",
+            "phone": "123"
         }
     ],
     "faculty": [
@@ -109,5 +116,88 @@
             "email": "ravi@gmail.com",
             "phone": "65982345"
         }
-    ]
+    ],
+   "assignments": [
+        {
+          "id": 1,
+          "title": "Math Homework",
+          "description": "Complete exercises 5 to 10 from chapter 3.",
+          "dueDate": "2024-09-05",
+          "attachment": "math_homework.pdf",
+          "className": "Mathematics"
+        },
+        {
+          "id": 2,
+          "title": "Science Project",
+          "description": "Prepare a model of the solar system.",
+          "dueDate": "2024-09-10",
+          "attachment": "solar_system_project.docx",
+          "className": "Science"
+        },
+        {
+          "id": 3,
+          "title": "History Essay",
+          "description": "Write an essay on the causes of World War II.",
+          "dueDate": "2024-09-12",
+          "attachment": "history_essay.pdf",
+          "className": "History"
+        },
+        {
+          "id": 4,
+          "title": "Art Assignment",
+          "description": "Create a landscape painting using watercolors.",
+          "dueDate": "2024-09-15",
+          "attachment": "landscape_painting.jpg",
+          "className": "Art"
+        },
+        {
+          "id": 5,
+          "title": "English Literature",
+          "description": "Read chapters 1-3 of 'To Kill a Mockingbird' and summarize.",
+          "dueDate": "2024-09-07",
+          "attachment": "tkam_summary.docx",
+          "className": "English"
+        },
+        {
+          "id": 6,
+          "title": "Geography Quiz",
+          "description": "Prepare for the upcoming quiz on continents and oceans.",
+          "dueDate": "2024-09-11",
+          "attachment": "quiz_study_guide.pdf",
+          "className": "Geography"
+        },
+        {
+          "id": 7,
+          "title": "Computer Science Assignment",
+          "description": "Write a program in Python to sort an array.",
+          "dueDate": "2024-09-08",
+          "attachment": "python_program.py",
+          "className": "Computer Science"
+        },
+        {
+          "id": 8,
+          "title": "Physical Education",
+          "description": "Submit a report on the benefits of daily exercise.",
+          "dueDate": "2024-09-09",
+          "attachment": "exercise_report.docx",
+          "className": "Physical Education"
+        },
+        {
+          "id": 9,
+          "title": "Chemistry Lab",
+          "description": "Complete the lab report on the chemical reactions observed.",
+          "dueDate": "2024-09-13",
+          "attachment": "chem_lab_report.pdf",
+          "className": "Chemistry"
+        },
+        {
+          "id": 10,
+          "title": "Music Assignment",
+          "description": "Compose a short melody using the C major scale.",
+          "dueDate": "2024-09-06",
+          "attachment": "melody_composition.mp3",
+          "className": "Music"
+        }
+      ]
+      
 }

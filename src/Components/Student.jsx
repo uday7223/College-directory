@@ -8,7 +8,7 @@ const Student = () => {
 
     const fetchApi = async () => {
         try {
-            let response = await axios.get('http://localhost:4000/students');
+            let response = await axios.get('http://localhost:4000/assignments');
             setStudent(response.data);
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -27,24 +27,27 @@ const Student = () => {
       <div className="con">
             <table>
                 <thead><tr>
-                    <td>Sl no</td>
-                    <td>Image</td>
-                    <td>Name</td>
-                    <td>email</td>
-                    <td>phone</td>
+                    <td>id</td>
+                    <td>title</td>
+                    <td>description</td>
+                    <td>dueDate</td>
+                    <td>attachment</td>
+                    <td>className</td>
                     </tr></thead>
 
                     <tbody>
                       {
                         student.map((ele)=>{
-                            let {id,imgPath,name,email,phone} = ele;
+                            let {id,title,description,dueDate,attachment,className} = ele;
+                            console.log(ele);
                             return(
                                 <tr>
                                     <td>{id}</td>
-                                    <td><img src={imgPath} alt="" /></td>
-                                    <td>{name}</td>
-                                    <td>{email}</td>
-                                    <td>{phone}</td>
+                                    <td>{title}</td>
+                                    <td>{description}</td>
+                                    <td>{dueDate}</td>
+                                    <td>{attachment}</td>
+                                    <td>{className}</td>
                                 </tr>
                             )
 
